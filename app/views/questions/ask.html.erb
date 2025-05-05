@@ -1,0 +1,9 @@
+<div class="container">
+  <form action="/answer" method = "get" data-turbo="false">
+    <label for="question">Ask your Coach anything:</label><br>
+    <div class="input-group">
+      <input type="text" id="question" name="question" value= "<%= params[:question]%>">
+      <input id= "btn" type="submit" value="Ask!">
+    </div>
+  </form>
+</div>

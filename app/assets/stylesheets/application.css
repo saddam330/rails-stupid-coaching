@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #fff;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  /* margin-bottom: 15px; */
+  margin: 15px 0;
+  color: #555;
+}
+
+.input-group {
+  display: flex;
+  max-width: 100%;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+#btn {
+  background-color: #2b77c1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #1f5d96;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.question {
+  border-left: 4px solid #ccc;
+  margin: 20px 0;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+#coach  {
+  background-color: #fffdd0; /* Light yellow */
+}
+
+h6 {
+  display: block;
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2b77c1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
